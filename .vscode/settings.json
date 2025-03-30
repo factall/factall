@@ -1,21 +1,21 @@
 {
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": true,
-    "mypy-type-checker.args": [
-        "--config-file=${workspaceFolder}/pyproject.toml"
-    ],
-    "mypy-type-checker.interpreter": [
-        "${userHome}/.virtualenvs/factall/bin/python"
-    ],
-    "mypy-type-checker.preferDaemon": true,
-    "mypy-type-checker.reportingScope": "workspace",
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "basic",
-    "python.defaultInterpreterPath": "~/.virtualenvs/factall/bin/python",
-    "python.envFile": "${workspaceFolder}/.env.test",
-    "python.poetryPath": "~/.virtualenvs/factall/bin/poetry",
-    "python.testing.autoTestDiscoverOnSaveEnabled": false,
-    "ruff.path": [
-        "~/.virtualenvs/factall/bin/ruff"
-    ]
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "mypy-type-checker.args": [
+    "--config-file=${workspaceFolder}/pyproject.toml"
+  ],
+  "mypy-type-checker.interpreter": [
+    "${userHome}/.virtualenvs/factall/bin/python"
+  ],
+  "mypy-type-checker.preferDaemon": true,
+  "mypy-type-checker.reportingScope": "workspace",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.defaultInterpreterPath": "~/.virtualenvs/factall/bin/python",
+  "python.envFile": "${workspaceFolder}/.env.test",
+  "python.poetryPath": "~/.virtualenvs/factall/bin/poetry",
+  "python.testing.autoTestDiscoverOnSaveEnabled": false,
+  "ruff.path": [
+    "~/.virtualenvs/factall/bin/ruff"
+  ]
 }
